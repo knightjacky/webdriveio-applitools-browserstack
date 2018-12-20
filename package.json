@@ -1,0 +1,28 @@
+{
+  "name": "mocha-webdriverio",
+  "version": "0.0.1",
+  "description": "Parallel tests with Mocha and Webdriverio  =============",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "devDependencies": {
+    "@applitools/eyes.webdriverio": "^2.0.0",
+    "axe-core": "^3.1.2",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "wdio-browserstack-service": "^0.1.18",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eyes.selenium": "0.0.83",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-selenium-standalone-service": "0.0.11"
+  }
+}
